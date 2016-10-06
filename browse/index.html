@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- ===================Head Start =============================================  -->
+	<head>
+		<title>Browse - Imaginarium Book Emporium</title>
+		<link rel="stylesheet" href="../styles.css">
+		<link rel="stylesheet" href="../responsive-nav.css">
+			<script src="../responsive-nav.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+		<!--[if lt IE 9]>
+    		<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+<!-- ===================Body Start =============================================  -->
+	<body>
+		<header role="banner" class="banner">
+			<div class="banner-left">
+				<a href="../"><img class="logo" src="../pics/book-logo.svg" alt="company logo, genie lamp stacked on books"></a>
+			</div>
+			<div class="banner-center">
+				<h1>Imaginarium Book Emporium</h1>
+				<p>Calgary's Best Imaginary Book Store</p>
+			</div>
+			<div class="banner-right">
+				<strong>Free Shipping on Orders over $50</strong>
+				<ul class="banner-contact">
+					<li><a href="mailto:info@imaginariumbook.com">info@imaginariumbook.com</a></li>
+					<li><a href="tel:1-403-290-11234">1-403-290-1234</a></li>
+				</ul>
+			</div>
+			<div class="banner-bottom">
+				<div class="search">
+					<input type="search" placeholder="  search" class="search-text">
+					<input type="submit" name="search" value="search" class="search-btn">
+				</div>
+				<div class="social">
+					<a href="#"><img src="../pics/icon/facebook.svg" alt="facebook"></a>
+					<a href="#"><img src="../pics/icon/twitter.svg" alt="twitter"></a>
+					<a href="#"><img src="../pics/icon/instagram.svg" alt="instagram"></a>
+				</div>
+				<div class="account">
+					<a href="#" class="signin">Sign In</a>
+					<a href="#" class="shopping"><img src="../pics/icon/shoppingcart.svg" alt="shopping cart"></a>
+				</div>
+			</div>
+		</header>
+<!-- ===================Navigation Start =============================================  -->
+		<nav class="nav-collapse" role="navigation">
+			<ul>
+			    <li><a href="../">Home</a></li>
+			    <li><a href="#">Browse</a></li>
+			    <li><a href="../events/">Events</a></li>
+			    <li><a href="../about/">About</a></li>
+			    <li><a href="../contact/">Contact</a></li>
+			  </ul>
+		</nav>
+<!-- ===================Article 1 Start =============================================  -->
+		<article class="browse">
+			<h2>Browse Books</h2>
+			<div class="browse-list">
+				<div class="browse-book">					
+					<ul>
+						<li><h4><cite><a href="#">The Cartoon History of the United States</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/cartoon-us-history.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Larry Gonick</a></cite></li>
+						<li>Hard Cover - In Stock - $29.99</li>
+						<li>Paper Back - In Stock - $18.99</li>
+					</ul>
+				</div>
+				<div class="browse-book">
+					<ul>
+						<li><h4><cite><a href="#">Cool Kids Never Sleep</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/cool-kids.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Herm Hermans</a></cite></li>
+						<li>Hard Cover - No Stock - $19.99</li>
+						<li>Paper Back - In Stock - $9.99</li>
+					</ul>
+				</div>
+				<div class="browse-book">
+					<ul>
+						<li><h4><cite><a href="#">The Fairy & the Frog</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/dreamland.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Lisa Leslie</a></cite></li>
+						<li>Hard Cover - In Stock - $24.99</li>
+						<li>Paper Back - In Stock - $12.99</li>
+					</ul>
+				</div>
+				<div class="browse-book">
+					<ul>
+						<li><h4><cite><a href="#">Biography of Hawks</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/raptor.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Carter Hall</a></cite></li>
+						<li>Hard Cover - In Stock - $19.99</li>
+						<li>Paper Back - No Stock - $9.99</li>
+					</ul>
+				</div>
+				<div class="browse-book">
+					<ul>
+						<li><h4><cite><a href="#">World History of Statues</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/statue.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Stan Liberty</a></cite></li>
+						<li>Hard Cover - In Stock - $14.99</li>
+						<li>Paper Back - In Stock - $6.99</li>
+					</ul>
+				</div>
+				<div class="browse-book">
+					<ul>
+						<li><h4><cite><a href="#">How My Tricycle Got Stolen</a></cite></h4></li>
+						<li><a href="#"><img src="../pics/covers/ufochild.jpg" alt=""></a></li>
+						<li>by <cite><a href="#">Clive Custard</a></cite></li>
+						<li>Hard Cover - In Stock - $14.99</li>
+						<li>Paper Back - In Stock - $6.99</li>
+					</ul>
+				</div>
+			</div>
+			<div class="filter">
+				<fieldset>
+					<legend>Filter</legend>
+					<div class="filter-ul">
+						<label for="filter-search">Book Search</label><br>
+							<input type="text" name="filter-search" id="filter-search" placeholder="Book Search"><br>
+						<div>
+							<label><input type="radio" name="fsearch-type" value="title"> Title</label>
+						</div>
+						<div>
+							<label><input type="radio" name="fsearch-type" value="author"> Author</label>
+						</div>
+						<div>
+							<label><input type="radio" name="fsearch-type" value="both" checked> Both</label>
+						</div>
+					</div>
+					<div class="filter-ul">
+						<label><input type="checkbox" name="check-filter" value="hard-cover" checked> Hard Cover</label><br>
+						<label><input type="checkbox" name="check-filter" value="paper-back" checked> Paper Back</label><br>
+						<label><input type="checkbox" name="check-filter" value="in-stock" checked> In Stock</label><br>
+						<label><input type="checkbox" name="check-filter" value="no-stock" checked> No Stock</label>
+					</div>
+					<div>
+						<label for="max-price">Max Price</label><br>
+							<input type="number" name="max-price" id="max-price" placeholder="from"><br>
+						<label for="min-price">Min Price</label><br>
+							<input type="number" name="min-price" id="min-price" placeholder="to">
+					</div>
+				</fieldset>
+			</div>
+		</article>
+<!-- ===================Blog Roll Start =============================================  -->
+		<aside role="complementary">
+			<div class="contact-side">
+				<h3>Contact Info</h3>
+				<ul>
+					<li>640 17th Ave SW</li>
+					<li>Calgary AB</li>
+					<li>T2S 0B4</li>
+				</ul>
+				<ul>
+					<li><a href="mailto:info@Imaginariumbook.com">info@imaginariumbook.com</a></li>
+					<li><a href="tel:1-403-290-11234">1-403-290-1234</a></li>
+				</ul>
+			</div>
+			<div class="blogroll">
+				<h3>Our Favorite Sites</h3>
+				<ul>
+					<li><a href="http://www.nytimes.com/books/best-sellers/">NY Times Best Sellers</a></li>
+					<li><a href="https://bookclubz.com">Bookclubz</a></li>
+					<li><a href="https://www.scribd.com/books">Scribd Books</a></li>
+					<li><a href="http://penguinrandomhouse.ca/books">Penguin Random House</a></li>
+				</ul>
+			</div>
+		</aside>
+<!-- ===================Footer Start =============================================  -->
+		<footer role="contentinfo">
+			<p>All pictures via <a href="http://pixabay.com"><cite>pixabay.com</cite></a></p>
+			<p>All icons via <a href="thenounproject.com"><cite>thenounproject.com</cite></a></p>
+			<p>&copy; 2016 SAIT Web Developer Class</p>
+		</footer>
+		<script>
+		  var nav = responsiveNav(".nav-collapse");
+		</script>
+	</body>
+</html>
