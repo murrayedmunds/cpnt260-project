@@ -1,0 +1,490 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+iframe {
+	max-width: 100%;
+}
+body {
+	font-size: 100%;
+	line-height: 1.4;
+	font-family: 'Arvo', serif;
+	color: #004647;
+	background: #F1F1F4;
+}
+.clear {
+	clear: both;
+}
+/* ------------------ Banner ------------------ */
+.logo {
+	width: 4em;
+	display: none;
+}
+.banner {
+	background-image: url(pics/book-banner.png);
+	background-repeat:round;
+	width: 100%;
+	margin-bottom: 1.4em;
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: distribute;
+	    align-content: space-around;
+	-ms-overflow-x: hidden;
+}
+.banner ul {
+	list-style: none;
+	padding-left: 0;
+}
+.banner li {
+	padding-bottom: .5em;
+}
+.banner strong {
+	color: #990F35;
+}
+.banner-bottom {
+	width: 100%;
+	padding-top: .5em;
+	background: #F1F1F4;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: distribute;
+	    align-content: space-around;
+}
+.search {
+	padding: .5em 0;
+	width: 100%;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+}
+.search-text {
+	width: 68%;
+	max-width: 40em;
+	margin: 0 auto;
+	height: 2em;
+}
+.search-btn {
+	height: 2em;
+	width: 30%;
+	max-width: 15em;
+}
+
+.banner-bottom img {
+	width: 2em;
+	margin: 0 .5em;
+}
+/* ------------------ footer ------------------ */
+footer {
+	width: 100%;
+	font-size: .75em;
+	margin-bottom: 8em;
+	border-top: #73221D .2em solid;
+}
+/* ------------------ homepage ------------------ */
+article {
+	margin-top: 2em;
+	padding-bottom: 1.4em;
+	border-bottom:#73221D .15em solid; 
+}
+.location {
+	display: block;
+}
+.book-month img, .next-event img, .events img, .about img {
+	display: block;
+	margin:0 auto; /* ask for help */
+}
+.map {
+	pointer-events: none;
+	width: 100%;
+	height: 16em;
+}
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin: 0 auto;
+}
+td, th {
+	border:#73221D .15em solid;
+	padding: .25em .5em;
+	text-align: center;
+	vertical-align: top;
+	background: #E8ECC2;
+}
+th {
+	background: #E8ECA2;
+}
+thead th:first-child, tbody th {
+	text-align: left;
+}
+/* ------------------ Aside ------------------ */
+.contact-side {
+	display: none;
+}
+aside ul {
+	padding-left: 0;
+}
+aside li {
+	list-style-type: none;
+}
+.blogroll ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	-ms-flex-line-pack: stretch;
+	    align-content: stretch;
+}
+.blogroll li {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 42%;
+	        flex: 1 0 42%;
+	text-align: center;
+	border: #73221D .15em solid;
+	background: #E8ECC2;
+	margin: 1.4em 1em 0;
+  	padding: .5em 1em;
+}
+.contact-side li{
+	margin: 0 1em;
+}
+/* ------------------ Browse page ------------------ */
+.browse-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: stretch;
+	    -ms-flex-align: stretch;
+	        align-items: stretch;
+	-ms-flex-line-pack: stretch;
+	    align-content: stretch;
+}
+.browse-book {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 42%;
+	        flex: 1 0 42%;
+	border: #73221D .15em solid;
+	background: #E8ECC2;
+	margin: 1.4em 1em;
+}
+.browse-book img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.browse-book {
+	margin-bottom: 1.4em;
+}
+.browse-book ul {
+	padding-left: 0;
+}
+.browse-book li {
+	list-style: none;
+	text-align: center;
+}
+.filter fieldset {
+	border: #73221D .15em solid;
+}
+.filter-ul {
+	border-bottom: #73221D .15em solid; 
+}
+#filter-search, #max-price, #min-price {
+	width: 100%;
+}
+/* ------------------ Events page ------------------ */
+.events ul {
+	margin-left: 0;
+	padding-left: 1em;
+	border: #73221D .15em solid;
+	background: #E8ECC2;
+	width: 10em;
+}
+.events li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 0;
+}
+.events li:first-child{
+	width: 100%
+}
+/* ------------------ About page ------------------ */
+
+/* ------------------ Contact us page ------------------ */
+.contact fieldset {
+	border: #73221D .15em solid;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%
+}
+.contact legend {
+	font-size: 1.5em;
+}
+textarea[required], input[required] {
+	border: #73221D 1px solid;
+}
+#name, #email-address, #phone, #reason {
+	width: 100%;
+	height: 2em;
+}
+#comment {
+	width: 100%;
+	height: 10em;
+}
+#send {
+	width: 10em;
+	height: 2em;
+}
+/* ------------------ Media Queries ------------------ */
+@media only screen and (min-width: 41em){
+/* ------------------ banner MQ 41 ------------------ */
+	.search {
+		width: 40%;
+	}
+/* ------------------ homepage MQ 41 ------------------ */
+	.book-month img, .next-event img, .events img, .about img{
+		float: left;
+		margin: 0 1em .5em 0;
+	}
+/* ------------------ Contact us page MQ 41 ------------------ */
+	.contact fieldset div {
+		display: inline-block;
+		width: 46%;
+	}
+}
+@media only screen and (min-width: 53em) {
+	body {
+		font-size: 1.4em;
+	}
+/* ------------------ banner MQ 53------------------ */
+	.banner {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-align: baseline;
+		    -ms-flex-align: baseline;
+		        align-items: baseline;
+		margin-bottom: 0;
+	}
+	.logo {
+		display: inline;
+		-ms-flex-item-align: end;
+		    align-self: flex-end;
+	}
+	.banner-left {
+		padding: .5em 0 0 .5em;
+	}
+	.banner-right {
+		text-align: right;
+		padding-right: 1em;
+	}
+	.banner-bottom {
+		position: relative;
+	}
+	.banner-contact {
+		display: none;
+	}
+	.account, .social {
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+	.social a, .account a {
+		padding: 0 0.5em;
+	}
+	.search-text {
+	height: 3em;
+	}
+	.search-btn {
+		height: 3em;
+	}
+/* ------------------ homepage MQ 53------------------ */
+	.visit {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: stretch;
+		    -ms-flex-align: stretch;
+		        align-items: stretch;
+		-ms-flex-line-pack: stretch;
+		    align-content: stretch;
+	}
+	.visit h2, .browse h2 {
+		width: 100%
+	}
+	.location, .hours {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 0 42%;
+		        flex: 1 0 42%;
+	}
+	.map {
+		pointer-events: auto;
+	}
+
+/* ------------------ Aside MQ 53 ------------------ */
+	aside {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: stretch;
+		    -ms-flex-align: stretch;
+		        align-items: stretch;
+		-ms-flex-line-pack: stretch;
+		    align-content: stretch;
+	}
+	.contact-side, .blogroll {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 0 42%;
+		        flex: 1 0 42%;
+		display: block;
+	}
+/* ------------------ footer MQ 53 ------------------ */
+	footer {
+		margin-bottom: 0;
+		display: inline-block;
+	}
+	footer p {
+		display: inline-block;
+	}
+/* ------------------ browse MQ 53 ------------------ */
+	.browse {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: baseline;
+		    -ms-flex-align: baseline;
+		        align-items: baseline;
+		-ms-flex-line-pack: stretch;
+		    align-content: stretch;
+	}
+	.browse-list {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 0 70%;
+		        flex: 1 0 70%;
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+	.filter {
+		width: 25%;
+	}
+/* ------------------ Conact Us MQ 53 ------------------ */
+	#comment {
+		height: 20em;
+	}
+}
+@media only screen and (min-width: 78em) {
+/* ------------------ article MQ 78 ------------------ */
+	body {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: baseline;
+		    -ms-flex-align: baseline;
+		        align-items: baseline;
+		-ms-flex-line-pack: stretch;
+		    align-content: stretch;
+	}
+	.banner, footer, nav {
+		width: 100%
+	}
+	article {
+		width:70%;
+		border-right: #73221D .15em solid;
+		border-bottom: none;
+		padding-right: 1em;
+	}
+/* ------------------ aside MQ 78 ------------------ */
+	aside {
+		width: 30%;
+		padding: 0 1em;
+	}
+	.contact-side, .blogroll {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 0 100%;
+		        flex: 1 0 100%;
+	}
+}
